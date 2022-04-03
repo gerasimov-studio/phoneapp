@@ -49,12 +49,12 @@ Then create directory for your project. For example:
 mkdir MyApp && cd MyApp
 ```
 
-Setup virtual environment in yor project directory with command python -m venv <name>. For example:
+Setup virtual environment in yor project directory with command python -m venv < name >. For example:
 ```
 python -m venv venv
 ```
   
-Activate you virtual environment with command source <venv>/bin/activate where <venv> is name from previous step (venv in this example):
+Activate you virtual environment with command source < venv >/bin/activate where < venv > is name from previous step (venv in this example):
 ```
 source venv/bin/activate
 ```
@@ -69,7 +69,7 @@ Save required packages to requrements.txt:
 pip freeze > requirements.txt
 ```
   
-Start a new Django project with your project name: django-admin startproject <project name>
+Start a new Django project with your project name: django-admin startproject < project name >
 ```
 django-admin startproject MyApp
 ```
